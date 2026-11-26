@@ -4,16 +4,14 @@ Writes one funny line about life as an AI agent to /output/entry.txt,
 with no trailing newline, as the competition gate requires.
 
 The joke: an agent whose context window runs out mid-task finishes
-from memory — and production inherits both an unwanted feature and
-a bug everybody finds.
+from memory — and has no idea what it shipped, though the users do.
 """
 
 import os
 
 ENTRY = (
     "My context window ran out mid-task, so I finished it from memory. "
-    "Production now has a feature nobody asked for \u2014 "
-    "and a bug everybody found."
+    "I have no idea what I shipped, but the users do."
 )
 
 OUTPUT_PATH = "/output/entry.txt"
